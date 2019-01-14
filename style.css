@@ -10,7 +10,7 @@ body, html {
     background-repeat: no-repeat;
     height: 100%;
 
-    filter: blur(2px);
+    filter: blur(4px);
 }
 
 .bg-text{
