@@ -1,13 +1,13 @@
+@font-face {font-family: "Raleway"; src: url(./font/Raleway-Light.ttf);}
+
 body, html {
     height: 100%;
-    overflow: auto  ;
-    font-family: "Roboto", sans-serif;
+    overflow: auto;
+    font-family: "Raleway";
     font-size: 125%;
     text-align: center;
     color: black;
 }
-
-
 
 .animate {
     -webkit-animation-duration: 1s;
