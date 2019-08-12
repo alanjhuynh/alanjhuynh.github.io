@@ -3,10 +3,29 @@ body, html {
     overflow: hidden;
 }
 
+.bg-img{
+    background-image: url("background.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 100%;
+
+    filter: blur(4px);
+}
+
 .bg-text{
     color: black;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
     text-align: center;
-    font: 150% "Raleway", sans-serif; 
+
+    font: 400% "Raleway", sans-serif;
+    text-shadow: 4px 4px 3px rgba(0,0,0,0.1);
+
+    border-style: solid;
+    padding: 10px;
 }
 
 .animate {
@@ -34,9 +53,4 @@ body, html {
     -webkit-animation-delay: 0.5s;
     -moz-animation-delay: 0.5s;
     animation-delay: 0.5s;
-}
-
-#inner {
-        width: 50%;
-        margin: 0 auto;
 }
