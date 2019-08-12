@@ -2,6 +2,7 @@ body, html {
     height: 100%;
     overflow: hidden;
     font-family: "Roboto", sans-serif;
+    font-size: 125%;
     text-align: center;
     color: black;
 }
