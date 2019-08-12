@@ -1,6 +1,6 @@
 body, html {
     height: 100%;
-    overflow: hidden;
+    overflow: auto  ;
     font-family: "Roboto", sans-serif;
     font-size: 125%;
     text-align: center;
@@ -36,7 +36,3 @@ body, html {
     animation-delay: 0.5s;
 }
 
-#inner {
-        width: 50%;
-        margin: 0 auto;
-}
