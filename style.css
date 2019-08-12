@@ -36,3 +36,8 @@ body, html {
     animation-delay: 0.5s;
 }
 
+#inner {
+    width: 50%;
+    margin: 0 auto;
+  }
+
