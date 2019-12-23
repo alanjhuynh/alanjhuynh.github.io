@@ -1,44 +1,288 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <title>alan huynh : portfolio</title>
-    <link rel="shortcut icon" type="image/png" href="./image/favicon.png"/>
-    <link rel="stylesheet" href="style.css">
 
-</head>
-<body style="background-color:#f0f0f0">
-    <div class="animate fadeIn delay">
-        <h1>alan huynh</h1>
-
-        <hr>
-
-        <p>part-time admin intern at city of long beach
-        <br>part-time student IT technician at uc irvine school of social sciences
-        <br>former part-time student programmer at uc irvine mind
-        <br>former part-time helpdesk intern at port of long beach
-        <br>full-time 4th year student at uc irvine studying computer engineering 
-        <br>(anticipated graduation: spring 2020)</p>
-
-        <hr>
-
-        <a style="text-decoration:none; color:black;" href="https://www.hypedsole.com/" target="_blank"> hypedsole e-commerce production ⮞</a>
-        <br>
-        <a style="text-decoration:none; color:black;" href="./hypedsole" target="_blank"> hypedsole e-commerce dev demo ⮞</a>
-        <br>
-        <a style="text-decoration:none; color:black;" href="https://github.com/JahnChoi/BlackjackCounter" target="_blank"> la hacks 2018 - blackjack counter ⮞</a>
-
-        <hr>
-        <br>
-        <a href="https://github.com/alanjhuynh" target="_blank">
-            <img src="https://cdn.jsdelivr.net/npm/simple-icons@latest/icons/github.svg" width="32" height="32"></a>
-        <a href="https://www.linkedin.com/in/alanjhuynh/" target="_blank">
-            <img src="https://cdn.jsdelivr.net/npm/simple-icons@latest/icons/linkedin.svg" width="32" height="32"></a>
-
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>Alan Huynh : Portfolio</title>
+        <link rel="shortcut icon" type="image/png" href="./images/favicon.png"/>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.8.0/css/bulma.min.css">
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma-extensions@6.2.7/bulma-timeline/dist/css/bulma-timeline.min.css">
+        <script defer src="https://use.fontawesome.com/releases/v5.3.1/js/all.js"></script>
         
-        <p><small>*website is wip</small></p>
-        
-    </div>
+        <link rel="stylesheet" href="./styles/style.css">
+    </head>
 
-</body>
+    <body>
+        <section id="sec-1" class="hero is-primary is-fullheight is-bold is-large animate fadeIn delay">
+            <div class="hero-body">
+                <div class="container has-text-centered">
+
+                    <h1 class="title is-size-1 has-text-weight-normal">
+                        Hello, I am Alan.
+                    </h1>
+                    <a href="https://www.linkedin.com/in/alanjhuynh/" target="_blank">
+                        <span class="icon is-large has-text-white">
+                            <i class="fab fa-linkedin fa-3x"></i>
+                        </span>
+                    </a>
+                    <a href="https://github.com/alanjhuynh" target="_blank">
+                        <span class="icon is-large has-text-white">
+                            <i class="fab fa-github fa-3x"></i>
+                        </span>
+                    </a>
+                    <a href="./docs/AlanHuynh.pdf" target="_blank">
+                        <span class="icon is-large has-text-white">
+                            <i class="fas fa-file-alt fa-3x"></i>
+                        </span>
+                    </a>
+
+                </div>
+            </div>
+
+            <div class="hero-foot">
+
+                <div class="container has-text-centered">
+                    <a onClick="document.getElementById('sec-2').scrollIntoView({behavior: 'smooth'});">
+                        <span class="icon is-large has-text-white">
+                            <i class="fas fa-angle-down fa-3x bounce"></i>
+                        </span>
+                    </a>
+                </div>
+
+            </div>
+        </section>
+
+        <section id="sec-2" class="hero has-background-light">
+            <div class="hero-body">
+                <div class="container">
+
+                    <h1 class="title has-text-weight-light">
+                        Education
+                    </h1>
+
+                    <div class="box">
+                        <article class="media">
+                            <div class="media-left">
+                                <figure class="image is-100x100">
+                                    <img src="https://brand.uci.edu/wp-content/uploads/uci18_simpleseal_blue_yellow_white.png">
+                                </figure>
+                            </div>
+                            <div class="media-content">
+                                <div class="content">
+                                    <p class="title is-4">University of California, Irvine</p>
+                                    <p class="subtitle is-6">Computer Engineering, B.S.</p>
+                                    <p>Graduation: Spring 2020</p>
+                                </div>
+                            </div>
+                        </article>
+                    </div>    
+                </div> 
+            </div>
+        </section>
+                
+        <section id="sec-3" class="hero has-background-light">
+            <div class="hero-body">
+                <div class="container">
+                    <h1 class="title has-text-weight-light">
+                        Experience
+                    </h1>
+                    <div class="box">
+                        <div class="timeline is-centered">
+                            <header class="timeline-header">
+                                <span class="tag is-medium is-info">Past</span>
+                            </header>
+                            <div class="timeline-item">
+                                <div class="timeline-marker"></div>
+                                <div class="timeline-content">
+                                    <p class="heading">June 2016 - August 2016</p>
+                                    <p>Port of Long Beach - Service Desk Intern</p>
+                                </div>
+                            </div>
+                            <header class="timeline-header">
+                                <span class="tag is-primary">2017</span>
+                            </header>
+                            <div class="timeline-item">
+                                <div class="timeline-marker"></div>
+                                <div class="timeline-content">
+                                    <p class="heading">April 2017 - Present</p>
+                                    <p>UCI Social Sciences - Student IT Technician</p>
+                                </div>
+                            </div>
+                            <header class="timeline-header">
+                                <span class="tag is-primary is-warning">2018</span>
+                            </header>
+                            <div class="timeline-item">
+                                <div class="timeline-marker"></div>
+                                <div class="timeline-content">
+                                    <p class="heading">September 2018 - June 2019</p>
+                                    <p>UCI MIND - Student Software Developer</p>
+                                </div>
+                            </div>
+                            <header class="timeline-header">
+                                <span class="tag is-primary is-danger">2019</span>
+                            </header>
+                            <div class="timeline-item">
+                                <div class="timeline-marker"></div>
+                                <div class="timeline-content">
+                                    <p class="heading">July 2019 - Present</p>
+                                    <p>City of Long Beach - Data Intern</p>
+                                </div>
+                            </div>
+                            <header class="timeline-header">
+                                <span class="tag is-medium is-info">Present</span>
+                            </header>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+
+        <section id="sec-4" class="hero has-background-light">
+            <div class="hero-body">
+                <div class="container">
+                    <h1 class="title has-text-weight-light">
+                        Projects
+                    </h1>
+                    <div class="columns">
+                        <div class="column">
+                            <div class="card">
+                                <header class="card-header">
+                                    <p class="card-header-title">
+                                        Senior Design - 3D Reconstruction
+                                    </p>
+                                </header>
+                                <div class="card-content">
+                                    <div class="content">
+                                        Post-processing and real-time 3D reconstruction utilizing Python with OpenCV. End goal of 3D environment simulation in VR. 
+                                    </div>
+                                </div>
+                                <footer class="card-footer">
+                                    <a href="https://www.youtube.com/watch?v=HP9Rxhb2DqE" target="_blank" class="card-footer-item">
+                                        <span class="icon has-text-danger">
+                                            <i class="fab fa-youtube"></i>
+                                        </span>
+                                    </a>
+                                    <a href="https://github.com/alanjhuynh/4DR" target="_blank" class="card-footer-item">
+                                        <span class="icon has-text-black">
+                                            <i class="fab fa-github"></i>
+                                        </span>
+                                    </a>
+                                    <a href="https://github.com/alanjhuynh/4DR/blob/master/4DR%20Fall%20Design%20Report.pdf" target="_blank" class="card-footer-item">
+                                        <span class="icon">
+                                            <i class="fas fa-file-alt"></i>
+                                        </span>
+                                    </a>
+                                </footer>
+                            </div>
+                        </div>
+                        <div class="column">
+                            <div class="card">
+                                <header class="card-header">
+                                    <p class="card-header-title">
+                                        LA Hacks 2018 - Blackjack Counter
+                                    </p>
+                                </header>
+                                <div class="card-content">
+                                    <div class="content">
+                                        A Python application that implements OpenCV for Python to analyze a single-player versus dealer game of blackjack to show advantages.
+                                    </div>
+                                </div>
+                                <footer class="card-footer">
+                                    <a href="https://github.com/alanjhuynh/lahacks2018-blackjack-counter" target="_blank" class="card-footer-item">
+                                        <span class="icon has-text-black">
+                                            <i class="fab fa-github"></i>
+                                        </span>
+                                    </a>
+                                </footer>
+                            </div>
+                        </div>
+                        <div class="column">
+                            <div class="card">
+                                <header class="card-header">
+                                    <p class="card-header-title">
+                                        HYPEDSOLE E-Commerce 
+                                    </p>
+                                </header>
+                                <div class="card-content">
+                                    <div class="content">
+                                        HYPEDSOLE is a pay after success check out e-commerce website for hyped commodities and developed with WordPress and WooCommerce.
+                                    </div>
+                                </div>
+                                <footer class="card-footer">
+                                    <a href="https://www.hypedsole.com/" target="_blank" class="card-footer-item">Production</a>
+                                    <a href="https://www.youtube.com/watch?v=uLReBI0eJZI" target="_blank" class="card-footer-item">Development Demo</a>
+                                </footer>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <footer class="footer">
+            <div class="content has-text-centered">
+                <nav class="level">
+                    <div class="level-item has-text-centered">
+                        <div>
+                            <p class="heading">Email</p>
+                            <p class="subtitle">alanh7@uci.edu</p>
+                        </div>
+                    </div>
+                    <div class="level-item has-text-centered">
+                        <div>
+                            <p class="heading">Resume</p>
+                            <a href="./docs/AlanHuynh.pdf" target="_blank">
+                                <span class="icon has-text-black">
+                                    <i class="fas fa-file-alt"></i>
+                                </span>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="level-item has-text-centered">
+                        <div>
+                            <p class="heading">Github</p>
+                            <a href="https://github.com/alanjhuynh" target="_blank">
+                                <span class="icon has-text-black">
+                                    <i class="fab fa-github"></i>
+                                </span>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="level-item has-text-centered">
+                        <div>
+                            <p class="heading">LinkedIn</p>
+                            <a href="https://www.linkedin.com/in/alanjhuynh/" target="_blank">
+                                <span class="icon has-text-black">
+                                    <i class="fab fa-linkedin"></i>
+                                </span>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="level-item has-text-centered">
+                        <div>
+                            <p class="heading">Location</p>
+                            <p class="subtitle">Long Beach, CA
+                            </p>
+                        </div>
+                    </div>
+                  </nav>
+                <br>
+                <p>
+                    © Alan Huynh 2020
+                    <br>
+                    <a href="./old"><small>old website</small></a>
+                </p>
+                
+            </div>
+        </footer>
+
+        <script>
+            window.onbeforeunload = function () {
+                window.scrollTo(0, 0);
+            }
+        </script>
+    </body>
+
 </html>
