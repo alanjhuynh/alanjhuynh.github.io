@@ -1,5 +1,7 @@
 body {
     overflow: overlay;
+    overflow-x: hidden;
+    background-color: #f7f7f7;
 }
 
 .logo {
@@ -13,6 +15,10 @@ body {
 
 .text-shadow {
     text-shadow: 1px 1px 5px black;
+}
+
+.text-shadow-white {
+    text-shadow: 1px 1px 3px white;
 }
 
 #hero {
@@ -75,6 +81,48 @@ body {
     }
 }
 
-.navbar-scrolled {
-    background-color: #fff;
-  }
+.animate {
+    -webkit-animation-duration: 1s;
+    animation-duration: 1s;
+    -webkit-animation-fill-mode: both;
+    animation-fill-mode: both;
+}
+
+@-webkit-keyframes fadeIn {
+    from {opacity: 0;}
+    to {opacity: 1;}
+}
+@keyframes fadeIn {
+    from {opacity: 0;}
+    to {opacity: 1;}
+}
+
+.fadeIn {
+    -webkit-animation-name: fadeIn;
+    animation-name: fadeIn;
+}
+
+.delay {
+    -webkit-animation-delay: 0.5s;
+    -moz-animation-delay: 0.5s;
+    animation-delay: 0.5s;
+}
+
+.card {
+    height: 480px;
+    background-size: cover;
+    border-radius: 20px;
+    transition: transform 0.3s ease;
+}
+
+.card:hover {
+    transform: translateY(-5px);
+}
+
+.section-container, .nav-container {
+    width: 69%;
+}
+
+.btn {
+    border-radius: 20px;
+}
