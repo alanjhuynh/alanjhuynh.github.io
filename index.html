@@ -9,7 +9,7 @@
         <!-- Google Font -->
         <link rel="preconnect" href="https://fonts.googleapis.com">
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-        <link href="https://fonts.googleapis.com/css2?family=Libre+Baskerville&family=Montserrat&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Short+Stack&display=swap" rel="stylesheet">
         <!-- Bootstrap -->
         <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
@@ -21,101 +21,16 @@
     </head>
 
     <body>
-        <nav class="navbar navbar-expand-lg fixed-top navbar-scroll justify-content-center animate fadeIn delay">
-            <div class="d-flex justify-content-end nav-container me-5">
-                <a class="me-2" href="https://www.linkedin.com/in/alanjhuynh/" target="_blank">
-                    <i class="fab fa-linkedin fa-2x text-black"></i>
-                </a>
-                <a class="" href="https://github.com/alanjhuynh" target="_blank">
-                    <i class="fab fa-github fa-2x text-black"></i>
-                </a> 
-            </div>
-          </nav>
-
         <div id="hero">
             <div class="hero-background w-100 h-100"></div>
             <div class="hero-content w-100 h-100 d-flex row align-items-center text-center animate fadeIn delay">
-                <div class="text-black text-shadow">
+                <div class="text-black">
                     <h1 class="logo">alan huynh</h1>
-                    <h1 class="title">SOFTWARE ENGINEER</h1>
+                    <h1 class="title"><a class="text-black" href="https://www.linkedin.com/in/alanjhuynh/" target="_blank">linkedin</a></h1>
+                    <h1 class="title"><a class="text-black" href="https://github.com/alanjhuynh" target="_blank">github</a></h1>
                 </div>
             </div>
-            <div class="arrow-cta text-center w-100 position-absolute w-100 animate fadeIn delay">
-                <a onClick="document.getElementById('section-1').scrollIntoView({behavior: 'smooth'});">
-                    <span class="icon is-large text-black">
-                        <i class="fas fa-angle-down fa-3x bounce"></i>
-                    </span>
-                </a>
-            </div>
-        </div>
-
-        <div id="section-1" class="mt-5 d-flex row justify-content-center">
-            <div class="section-container row g-5">
-                <div class="card text-white text-shadow p-5" style="background-image: url('https://cdn.pixabay.com/photo/2016/06/12/20/15/sports-1452965_960_720.jpg')">
-                    <h1>track<span class="text-muted">kilo</span></h1>
-                    <h5>fitness tracker</h5>
-                    <h6>project</h6>
-                    
-                    <div class="d-none d-sm-block mt-5 w-25">
-                        <button onClick="window.open('https://www.trackkilo.com/');" class="btn btn-lg bg-dark text-white mt-5 w-50">track</button>
-                    </div>
-            
-                </div>
-            </div>
-        </div>
-
-        <div id="section-2" class="my-5 d-flex justify-content-center">
-            <div class="section-container row g-5">
-                <div class="col col-sm-6">
-                    <div class="card text-white text-shadow p-5" style="background-image: url('https://images.pexels.com/photos/2618693/pexels-photo-2618693.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1')">
-                        <h1>software engineer</h1>
-                        <h5>brandboom • 2021 &mdash; present</h5>
-                        <h6>full-time</h6>
-                    </div>
-                </div>
-                <div class="col col-sm-6">
-                    <div class="card text-white text-shadow p-5" style="background-image: url('https://s3-us-west-2.amazonaws.com/amazon.job-cms-website.paperclip.prod/global_images/22/images/Spheres.jpg?1528133524')">
-                        <h1>cloud support associate</h1>
-                        <h5>amazon web services • 2021</h5>
-                        <h6>full-time</h6>
-                    </div>
-                </div>
-                <div class="col col-sm-6">
-                    <div class="card text-white text-shadow p-5" style="background-image: url('https://californiacrossroads.com/wp-content/uploads/2020/12/Seal-Beach-California.jpg')">
-                        <h1>noc analyst</h1>
-                        <h5>2020</h5>
-                        <h6>full-time</h6>
-                    </div>
-                </div>
-                <div class="col col-sm-6">
-                    <div class="card text-white text-shadow p-5" style="background-image: url('https://longbeach.gov/globalassets/city-news/civiccenter_02-28-19_004.jpg')">
-                        <h1>data intern</h1>
-                        <h5>city of long beach • 2019 &mdash; 2020</h5>
-                        <h6>internship</h6>
-                    </div>
-                </div>
-                <div class="col col-sm-6">
-                    <div class="card text-white text-shadow p-5" style="background-image: url('https://merage.uci.edu/_files/images/centers/investment-wealth-management/merage-courtyard-long-sq.png')">
-                        <h1>it technician</h1>
-                        <h5>uc irvine • 2017 &mdash; 2020</h5>
-                        <h6>work-study</h6>
-                    </div>
-                </div>
-                <div class="col col-sm-6">
-                    <div class="card text-white text-shadow p-5" style="background-image: url('images/uci.jpg')">
-                        <h1>software developer</h1>
-                        <h5>uc irvine • 2018 &mdash; 2019</h5>
-                        <h6>work-study</h6>
-                    </div>
-                </div>
-                <div class="col col-sm-6">
-                    <div class="card text-white text-shadow p-5" style="background-image: url('https://thehelm.polb.com/wp-content/uploads/card-ocean-carriers-2.jpg')">
-                        <h1>service desk intern</h1>
-                        <h5>port of long beach • 2016</h5>
-                        <h6>internship</h6>
-                    </div>
-                </div>
-            </div>
-        </div>
+        </div>  
     </body>
+
 </html>

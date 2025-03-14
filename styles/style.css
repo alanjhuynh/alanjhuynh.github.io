@@ -4,13 +4,17 @@ body {
     background-color: #f7f7f7;
 }
 
+a {
+    text-decoration:none;
+ }
+
 .logo {
     font-size: 100px;
-    font-family: 'Libre Baskerville', serif;
+    font-family: "Short Stack", cursive;
 }
 
 .title, .subtitle {
-    font-family: 'Montserrat', sans-serif;
+    font-family: "Short Stack", cursive;
 }
 
 .text-shadow {
