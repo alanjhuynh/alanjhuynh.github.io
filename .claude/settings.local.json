@@ -1,0 +1,9 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(cp \"c:/Users/Alan/Documents/repos/alanjhuynh.github.io/index.html\" \"c:/Users/Alan/Documents/repos/alanjhuynh.github.io/archives/v5/index.html\")",
+      "Bash(cp \"c:/Users/Alan/Documents/repos/alanjhuynh.github.io/styles/style.css\" \"c:/Users/Alan/Documents/repos/alanjhuynh.github.io/archives/v5/styles/style.css\")",
+      "Bash(cp \"c:/Users/Alan/Documents/repos/alanjhuynh.github.io/scripts/index.js\" \"c:/Users/Alan/Documents/repos/alanjhuynh.github.io/archives/v5/scripts/index.js\")"
+    ]
+  }
+}
